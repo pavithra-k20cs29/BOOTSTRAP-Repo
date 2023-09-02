@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title> carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6faMpUY0LMolAN7ws0ln9e/aab52c1ae29684dc8a7ae9c0d2a3ada5/thumb_july22_02.jpg?fit=fill&w=840&h=473&fm=webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#" style="color: rgb(9, 9, 57); background-color: blue;">Home</a>
+              <a class="nav-link" href="#" style="color: blue;">About</a>
+              <a class="nav-link" href="#" style="color: blue;">Places</a>
+              <a class="nav-link" href="#" style="color: blue;"> Contact </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://photo-cdn2.icons8.com/YI1mCB1BaKUnlkcW6jtN8tHt2SHwI2gAIZOAdRLCx6Q/rs:fit:288:191/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9kNzdmMjBiMjg0/N2I0YzBmODcyZWMw/NTRkYWQ4MDJhNy5q/cGc.webp" class="d-block w-100" alt="..." height="350px" width="200px">
+            <div class="carousel-caption d-none d-md-block" style="color: rgb(5, 94, 76);font-size: large;">
+              <h5>IMAGE 1</h5>
+              <p> NATURE IS A BEAUTY!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://photo-cdn2.icons8.com/5UnIv1xqeXvGNKtYhtmZsry-OVG-4jdXKcXA5lhULcI/rs:fit:288:216/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9kNDcwODBhYjEz/ZDk0NjVmYjBkMGFm/OWZlMWYzZDlkMy5q/cGc.webp" class="d-block w-100" alt="..." height="350px" width="200px">
+            <div class="carousel-caption d-none d-md-block" style="color: rgb(143, 230, 143);font-size: large;">
+              <h5>IMAGE 2</h5>
+              <p>NATURE IS A PLEASENT FEEL!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://photo-cdn2.icons8.com/-3Eyb2gQDwljkfa2l07KzADnV-2n1HjhIStgQhSfdYI/rs:fit:288:230/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi82MzRhODNlZjM2/M2E0NjQ2OTRmMDQ3/ODRjMzM5NDJmOC5q/cGc.webp" class="d-block w-100" alt="..." height="350px" width="200px">
+            <div class="carousel-caption d-none d-md-block" style="color: rgb(143, 230, 143);font-size: large;">
+              <h5>IMAGE 3</h5>
+              <p> NATURE IS CALMFULL!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://photo-cdn2.icons8.com/6ZgfDqFCRcAXl0FximZZtfq8a-69ynayCBaAcc3gO_E/rs:fit:288:192/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi81OGFhMmU1ZjUw/YWI0NTE3YmEzYjcx/ZjZlNGMzNGVjOC5q/cGc.webp " class="d-block w-100" alt="..." height="350px" width="200px">
+            <div class="carousel-caption d-none d-md-block" style="color: rgb(143, 230, 143);font-size: large;">
+              <h5>IMAGE 4</h5>
+              <p> NATURE HEALS OURSELF!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- grid -->
+
+      <div class="container text-left bg-light " style="font-size: small;">
+        <div class="row">
+          <div class="col">
+            <h3>NATURE </h3>
+            <p> Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</p>
+            <button type="button" class="btn btn-primary"> MORE!</button>
+          </div>
+          <div class="col">
+            <h3>WATERFALLS</h3>
+            <p>A waterfall is a river or other body of water's steep fall over a rocky ledge into a plunge pool below. Waterfalls are also called cascades. The process of erosion, the wearing away of earth, plays an important part.</p>
+            <button type="button" class="btn btn-primary"> MORE!</button>
+          </div>
+          <div class="col">
+            <h3> HILLS</h3>
+            <p>A hill is a piece of land that rises higher than everything surrounding it. It looks like a little bump in the Earth. Since they are higher than everything around them, hills are good places to get a nice view.</p>
+            <button type="button" class="btn btn-primary"> MORE!</button>
+          </div>
+        </div>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
+</body>
+</html>
