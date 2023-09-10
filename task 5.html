@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="Portfolio_Testimonial.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<style>
+  .Mains {
+    background-color: #1f2933;
+  }
+
+  .Mains h1 {
+    color: white;
+  }
+
+  .Mains h6 {
+    color: white;
+  }
+
+  .Mains h5 {
+    color: yellow;
+  }
+
+  .Carousel_Head p {
+    color: #9aa5b1;
+  }
+  .img1,.img2,.img3{
+    border-radius: 50%;
+    margin-left: 30%;
+  }
+</style>
+
+<body>
+  <div class="container-fluid Mains">
+    <h5>Testimonial</h5>
+    <h1>Our Members Says</h1>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner Carousel_Head">
+        <div class="carousel-item active">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png"
+            class="d-block w-25 img1" alt="...">
+          <p>Jenny is one of the best hard-working developers, and it was a pleasure working with him. Having him on the
+            project certainly made everything run smpoother.</p>
+          <h6>-Gautham, Founder of CocoPay Company</h6>
+        </div>
+        <div class="carousel-item">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png"
+            class="d-block w-25 img2" alt="...">
+          <p>Working with Jenny was an excellent experience. He is an incredibly talented developer and what makes him
+            stand out is his work ethic and steady approch.</p>
+          <h6>- Rakesh, Co-developer in Veriphy Company</h6>
+        </div>
+        <div class="carousel-item">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png"
+            class="d-block w-25 img3" alt="...">
+          <p>I have worked with Jenny on two complex projects, and in both cases, the projects are done in a timly
+            fashion and delivered with excellent customer satisfaction.</p>
+          <h6>- Riya, Co-founder of CocoPay Company</h6>
+        </div>
+      </div>
+
+    </div>
+    <div class="offset-3">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
